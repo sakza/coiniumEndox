@@ -1,0 +1,21 @@
+{
+    "name": "Endox",
+    "symbol": "EDX",
+    "algorithm": "bmw",
+    "site": "https://github.com/saltinechips/endox",
+    "node": {
+        "magic": "a1a2a34b",
+        "testnetMagic": "1b2b3bc4"
+    },
+    "blockExplorer": {
+        "block": "http://endox.blockcrawlers.xyz/block/",
+        "tx": "http://endox.blockcrawlers.xyz/tx/",
+        "address": "http://endox.blockcrawlers.xyz/address/"
+    },
+    "options": {
+		"isProofOfStakeHybrid": true,
+		"blockTemplateModeRequired": true,
+		"useDefaultAccount": true
+     }
+
+}
